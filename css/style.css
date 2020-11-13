@@ -1,3 +1,4 @@
+/* Overall Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -26,6 +27,7 @@ html{
 .navbar{
     border: 1px solid red;
     height: 70px;
+    background-color: #fff;
 }
 
 .navbar ul{
