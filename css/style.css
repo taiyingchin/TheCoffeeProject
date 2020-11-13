@@ -46,7 +46,7 @@ h5 {
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Navigation Bar */
@@ -61,6 +61,8 @@ h6 {
 }
 
 .navbar a{
+    font-size: 24px;
+    font-weight: 700;
     padding: 20px;
     margin: 0 5px;
 }
@@ -68,4 +70,32 @@ h6 {
 .navbar .flex{
     justify-content: space-between;
     overflow: hidden;
+}
+
+button {
+    background-color: #F4DB55;
+    border: none;
+    color: #260101;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 15px 32px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #EEDF8F;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+button:active {
+    background-color:#F4EECC;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+    outline: none;
+    border: 2px dashed #260101;
 }
