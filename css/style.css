@@ -51,7 +51,7 @@ h6 {
 
 /* Navigation Bar */
 .navbar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 70px;
     background-color: #fff;
 }
