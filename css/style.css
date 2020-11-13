@@ -1,13 +1,12 @@
 /* Overall Styling */
 * {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #260101;
+    line-height: 1.6;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body{
-    font-family: 'Quicksand', sans-serif;
-    line-height: 1.6;
 }
 
 ul{
@@ -21,6 +20,31 @@ a{
 
 html{
     scroll-behavior: smooth;
+}
+
+/* Headers */
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
 }
 
 /* Navigation Bar */
