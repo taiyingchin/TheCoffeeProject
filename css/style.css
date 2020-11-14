@@ -102,9 +102,25 @@ h6 {
     box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
 }
 
-.showcase .showcase-text{
+.showcase-text{
+    /* grid-area: st; */
+    color: #F4DB55;
+}
+
+.showcase-desc{
+    /* border: #9DCED5 solid 1px; */
+    /* grid-area: sd; */
+    background-color: #9DCED5;
     color: white;
-    font-size: 25px;
+}
+
+.showcase-img{
+    /* grid-area: si; */
+}
+
+.showcase .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 /* Dummy Block */
