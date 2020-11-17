@@ -128,6 +128,11 @@ button:focus {
     background-position: right;
 }
 
+.testing{
+    border: 4px solid #5AA1A2;
+    box-sizing: border-box;
+}
+
 .testing:hover{
-    transform: scale(0.98);
+    border: 6px solid #5AA1A2;
 }
