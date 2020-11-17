@@ -58,6 +58,7 @@ h6 {
     height: 70px;
     background-color: #fff;
     border-bottom: #333 solid 1px;
+    z-index: 2;
 }
 
 .navbar ul{
@@ -78,7 +79,7 @@ h6 {
 
 /* Showcase */
 .showcase{
-    border: red solid 2px;
+    /* border: red solid 1px; */
     display: flex;
     height: 1000px;
     margin-top: 70px;
@@ -93,44 +94,65 @@ h6 {
 }
 
 .showcase .container{
-    border: blue solid 2px;
+    /* border: blue solid 2px; */
     height: 65%;
     width: 80%;
-    display: grid;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
 }
 
 .showcase .grid{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: [main-start] 250px [c1] 1fr [c2] 1fr [c3] 200px [main-end];
+    grid-template-rows: [heaven] 1fr [c1] 1fr [c2] 1fr [c3] 1fr [hell];
+    overflow: visible;
+    position: relative;
 }
 
 .showcase-text{
-    /* grid-area: st; */
-    grid-column: 1 / 3;
-    grid-row: 1;
+    grid-column: c1 / c3;
+    grid-row: heaven;
+    margin: auto;
     color: #F4DB55;
 }
 
 .showcase-desc{
     /* border: #9DCED5 solid 1px; */
-    /* grid-area: sd; */
-    grid-column: 1 / 2;
-    grid-row: 2;
+    display: flex;
+    align-items: center;
+    margin: 0 120px;
+    grid-column: main-start / c2;
+    grid-row: c1 / c2;
     background-color: #9DCED5;
     color: white;
-    height: 200px;
-    width: 400px;
-    padding: 20px 10px;
-    z-index: 10;
+    height: 250px;
+    width: 625px;
+    z-index: 1;
+}
+
+.showcase-desc h1{
+    padding: 0 80px
 }
 
 .showcase-img{
-    /* grid-area: si; */
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-column: c1 / main-end;
+    grid-row: c1 / main-end;
+    margin-bottom: 28px;
+    margin-left: 90px;
+}
+
+.showcase-cta{
+    height: 100px;
+    width: 300px;
+    grid-column: c1 / c3;
+    grid-row: c3;
+    margin: auto;
+    background-color: #F4DB55;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Dummy Block */
