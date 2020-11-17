@@ -73,7 +73,7 @@ button:focus {
 
 /* Subscription Buttons */
 
-.blueText, .yellowText, .blueTextImg, .yellowTextImg {
+.blueText, .yellowText, .yellowImg {
     width: 400px;
     height: 125px;
     background-color: white;
@@ -81,11 +81,19 @@ button:focus {
     font-weight: 300;
 }
 
-.blueText {
+.blueImg {
+    width: 532px;
+    height: 125px;
+    background-color: white;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.blueText, .blueImg {
     border: 4px solid #5AA1A2;
 }
 
-.blueText:hover {
+.blueText:hover, .blueImg:hover {
     border: 6px solid #5AA1A2;
     background-color: white;
 }
@@ -99,11 +107,23 @@ button:focus {
     background-color: white;
 }
 
-.blueTextChoose, .blueTextChoose:hover {
+.blueTextChoose, .blueTextChoose:hover, .blueImgChoose .blueImgChoose:hover {
     background-color: #5AA1A2;
     color: white;
 }
 
 .yellowTextChoose, .yellowTextChoose:hover {
     background-color: #F4DB55;
+}
+
+.beanImg {
+    background-image: url("../images/sub-whole-bean.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.groundImg {
+    background-image: url("../images/sub-ground.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }

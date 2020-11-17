@@ -8,12 +8,12 @@ $('button.yellowText').click(function(){
     $(this).toggleClass("yellowTextChoose");
 });
 
-$('button.blueTextImg').click(function(){
-    $(".blueTextImg").removeClass("blueTextImgChoose");
-    $(this).toggleClass("blueTextImgChoose");
+$('button.blueImg').click(function(){
+    $(".blueImg").removeClass("blueImgChoose");
+    $(this).toggleClass("blueImgChoose");
 });
 
-$('button.yellowTextImg').click(function(){
-    $(".yellowTextImg").removeClass("yellowTextImgChoose");
+$('button.yellowImg').click(function(){
+    $(".yellowImg").removeClass("yellowTextImgChoose");
     $(this).toggleClass("yellowTextImgChoose");
 });
