@@ -24,6 +24,16 @@ html{
     scroll-behavior: smooth;
 }
 
+a {
+    color: #5AA1A2;
+    text-decoration: underline #260101;
+}
+
+a:hover {
+    color: #BE7749;
+    text-decoration: underline #260101;
+}
+
 /* Headers */
 h1 {
     font-size: 48px;
@@ -38,7 +48,10 @@ h3 {
 }
 
 h4 {
-    font-size: 24px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #260101;
+    font-size: 42px;
+    margin-bottom: 24px;
 }
 
 h5 {
@@ -108,4 +121,33 @@ h6 {
 
 .dummyblock p{
     font-size: 100px;
+}
+
+/* Underline Animation */
+h4.hL {
+    position: relative;
+}
+
+h4.hL:before {
+    content: "";
+    position: absolute;
+    /* width: 250; */
+    height: 12px;
+    bottom: 0;
+    left: 0;
+    background-color: #5AA1A2;
+    transition: all 1s ease-in-out;
+    z-index: -100;
+    top: 40px;
+    border-radius: 6px;
+}
+
+/* Coffee Name Classes */
+.spyhouse:before {
+    width:133px;
+}
+
+h4.hL:hover:before {
+    visibility: visible;
+    width: 25%;
 }
