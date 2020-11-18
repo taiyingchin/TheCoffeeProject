@@ -8,7 +8,7 @@
 .flex{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     height: 100%;
 }
 
