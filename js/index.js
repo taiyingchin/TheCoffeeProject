@@ -14,6 +14,6 @@ $('button.blueImg').click(function(){
 });
 
 $('button.yellowImg').click(function(){
-    $(".yellowImg").removeClass("yellowTextImgChoose");
-    $(this).toggleClass("yellowTextImgChoose");
+    $(".yellowImg").removeClass("yellowImgChoose");
+    $(this).toggleClass("yellowImgChoose");
 });
