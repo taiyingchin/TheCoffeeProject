@@ -177,6 +177,38 @@ h6 {
     border-radius: 0;
 }
 
+/* Information */
+.info-container{
+    /* border: 1px solid green; */
+    height: 847px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-img{
+    /* border: 1px solid red; */
+}
+
+.info-p{
+    /* border: 1px solid blue; */
+    max-width: 40%;
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    height: 600px;
+}
+
+.info-p div{
+    height: 100px;
+    width: 100%;
+    
+}
+
 /* Dummy Block */
 .dummyblock{
     height: 1000px;
