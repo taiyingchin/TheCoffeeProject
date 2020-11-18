@@ -94,6 +94,20 @@ h6 {
     overflow: hidden;
 }
 
+#cart img{
+    height: 34px;
+    width: 36px;
+}
+
+#logo img{
+    height: 67px;
+    width: 370px;
+}
+
+#logo{
+    align-items: center;
+}
+
 /* Showcase */
 .showcase{
     /* border: red solid 1px; */
