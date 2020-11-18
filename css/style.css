@@ -84,7 +84,7 @@ h6 {
     font-weight: 700;
     padding: 20px;
     margin: 0 5px;
-    font-weight: 200;
+    font-weight: 400;
     text-decoration: none;
     color: #591902;
 }
@@ -97,15 +97,6 @@ h6 {
 #cart img{
     height: 34px;
     width: 36px;
-}
-
-#logo img{
-    height: 67px;
-    width: 370px;
-}
-
-#logo{
-    align-items: center;
 }
 
 /* Showcase */
