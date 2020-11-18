@@ -94,10 +94,6 @@ h6 {
     overflow: hidden;
 }
 
-#cart img{
-    height: 30px;
-}
-
 /* Showcase */
 .showcase{
     /* border: red solid 1px; */
@@ -136,6 +132,10 @@ h6 {
     grid-row: heaven;
     margin: auto;
     color: #F4DB55;
+}
+
+.showcase-text h1{
+    font-weight: 300;
 }
 
 .showcase-desc{
@@ -178,7 +178,7 @@ h6 {
     top: 60px;
     height: 100px;
     width: 300px;
-    border-radius: 0;
+    /* border-radius: 0; */
 }
 
 /* Information */
@@ -191,9 +191,9 @@ h6 {
     align-items: center;
 }
 
-.info-img{
-    /* border: 1px solid red; */
-}
+/* .info-img{
+    border: 1px solid red;
+} */
 
 .info-p{
     /* border: 1px solid blue; */
@@ -238,7 +238,6 @@ h4.hL:before {
     bottom: 0;
     left: 0;
     background-color: #5AA1A2;
-    transition: all 1s ease-in-out;
     z-index: -100;
     top: 40px;
     border-radius: 6px;
