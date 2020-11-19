@@ -43,3 +43,30 @@
 }
 
 /* Coffee Section 1 */
+.local-coffee-right{
+    border: 1px solid red;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.lcr-container{
+    border: 1px solid black;
+    max-width: 90%;
+    display: flex;
+}
+
+.lcr-desc{
+    border: 1px solid orchid;
+    max-width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    text-align: center;
+}
+
+.lcr-desc div{
+    max-width: 80%;
+}
+
