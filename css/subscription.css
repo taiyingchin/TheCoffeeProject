@@ -117,3 +117,8 @@
 .colorBlock {
     background-color: #FDF9DF;
 }
+
+.container-fluid {
+    margin: none;
+    padding: 0px;
+}
