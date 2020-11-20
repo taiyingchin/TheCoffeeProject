@@ -17,3 +17,8 @@ $('button.yellowImg').click(function(){
     $(".yellowImg").removeClass("yellowImgChoose");
     $(this).toggleClass("yellowImgChoose");
 });
+
+$('button.bagAmt').click(function(){
+    $(".bagAmt").removeClass("bagAmtChoose");
+    $(this).toggleClass("bagAmtChoose");
+});
