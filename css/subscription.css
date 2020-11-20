@@ -1,9 +1,11 @@
-/* div [class*=col]{ border:1px solid red} */
+/* div [class*=col]{ border:1px solid red}
+div { border:1px solid red} */
 
 .container {
     max-width: 1900px;
 }
 
+/* Hero Image */
 .hero {
     position: relative; 
     height: 825px;
@@ -28,9 +30,25 @@
     opacity: 0.40;
 }
 
+/* Jumbotron */
+.jumbotron-fluid {
+    margin-top: 100px;
+    padding: 100px 250px 200px 250px;
+    border-radius: 15px 15px 0 0;
+    background-color: #7BB3B4;
+}
+
+/* ul {
+    padding-top: 100px;
+} */
+
+/* li.h3 {
+    color: white;
+} */
+
 .row {
     margin: 30px 0;
-    padding: 30px 0;
+    padding: 30px 305px;
 }
 
 /* Subscription Buttons */
@@ -118,7 +136,9 @@
     background-color: #FDF9DF;
 }
 
-.container-fluid {
-    margin: none;
-    padding: 0px;
+@media (max-width: 1800px) { 
+ 
+    .row {
+        padding: 30px 0;
+    }
 }
