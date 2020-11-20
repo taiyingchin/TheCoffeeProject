@@ -3,8 +3,8 @@
     /* border: 1px solid red; */
     margin-top: 70px;
     height: 500px;
-    background-image: url(/images/coffee-showcase4.jpg);
-    background-position: 0px -100px;
+    background-image: url(/images/coffee-showcase5.png);
+    background-position: 0px -900px;
     background-repeat: no-repeat;
     background-size: 100vw;
     box-shadow: inset 0 0 0 100vw rgba(255, 255, 255, 0.8);
@@ -78,12 +78,17 @@
     width: 100%;
 }
 
+.lcr-img .a1, .a2, .a3{
+    background-image: url(/images/coffeebag.png);
+}
+
 /* Coffee Section 2 */
 .local-coffee-left{
     height: 600px;
     display: flex;
     justify-content: center;
-    box-shadow: inset 0 0 0 100vw rgba(190, 119, 73, 0.3);
+    /* box-shadow: inset 0 0 0 100vw rgba(190, 119, 73, 0.3); */
+    background-color: #E6CBB9;
 }
 
 .lcl-container{
@@ -109,4 +114,35 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+}
+
+.lcl-img .b1{
+    background-image: url(/images/spyhouse-bold.jpg);
+    background-position: center;
+}
+
+.lcl-img .b2{
+    background-image: url(/images/spyhouse-colombia.jpg);
+    background-position: center;
+}
+
+.lcl-img .b3{
+    background-image: url(/images/spyhouse-orion.jpg);
+    background-position: center;
+}
+
+/* Coffee Section 3 */
+.lcr-img .c1{
+    background-image: url(/images/fivewatt-fullstack.jpg);
+    background-position: center;
+}
+
+.lcr-img .c2{
+    background-image: url(/images/fivewatt-halfstack.jpg);
+    background-position: center;
+}
+
+.lcr-img .c3{
+    background-image: url(/images/fivewatt.jpg);
+    background-position: center;
 }
