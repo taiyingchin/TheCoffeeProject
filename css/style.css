@@ -50,12 +50,12 @@ h3 {
     font-size: 32px;
 }
 
-h4 {
+/* h4 {
     font-family: 'Annie Use Your Telescope', cursive;
     color: #260101;
     font-size: 42px;
     margin-bottom: 24px;
-}
+} */
 
 h5 {
     font-size: 16px;
@@ -208,7 +208,11 @@ h6 {
 .info-p div{
     height: 100px;
     width: 100%;
-    
+}
+
+.info-p .spyhouse:before{
+    width: 74%;
+    left: 85px;
 }
 
 /* Steps */
@@ -226,6 +230,7 @@ h6 {
     margin: auto;
     text-align: center;
     margin-top: 150px;
+    width: 380px;
 }
 
 .steps-desc{
@@ -317,6 +322,13 @@ h6 {
 }
 
 /* Underline Animation */
+h4 {
+    /* font-family: 'Annie Use Your Telescope', cursive; */
+    color: #260101;
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
 h4.hL {
     position: relative;
 }
@@ -329,17 +341,17 @@ h4.hL:before {
     bottom: 0;
     left: 0;
     background-color: #5AA1A2;
-    z-index: -100;
-    top: 40px;
+    z-index: -10;
+    top: 41px;
     border-radius: 6px;
 }
 
 /* Coffee Name Classes */
 .spyhouse:before {
-    width:133px;
+    width: 100%;
 }
 
-h4.hL:hover:before {
+/* h4.hL:hover:before {
     visibility: visible;
     width: 25%;
-}
+} */
