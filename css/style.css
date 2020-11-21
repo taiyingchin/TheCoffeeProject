@@ -314,6 +314,10 @@ h6 {
     text-decoration: none;
 }
 
+.main-footer a:hover{
+    text-decoration: underline;
+}
+
 /* Dummy Block */
 .dummyblock{
     height: 1000px;
