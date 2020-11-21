@@ -88,6 +88,10 @@ h6 {
     color: #591902;
 }
 
+.navbar a:hover{
+    text-decoration: underline;
+}
+
 .navbar .flex{
     justify-content: space-between;
     overflow: hidden;
