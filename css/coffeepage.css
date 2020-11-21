@@ -78,8 +78,25 @@
     width: 100%;
 }
 
-.lcr-img .a1, .a2, .a3{
-    background-image: url(../images/coffeebag.png);
+.lcr-img .a1{
+    background-image: url(../images/dw-mexico.png);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+.lcr-img .a2{
+    background-image: url(../images/dw-ethiopia.png);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+.lcr-img .a3{
+    background-image: url(../images/dw-peru.png);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
 }
 
 /* Coffee Section 2 */
@@ -135,14 +152,20 @@
 .lcr-img .c1{
     background-image: url(../images/fivewatt-fullstack.jpg);
     background-position: center;
+    background-size: 125%;
+    background-repeat: no-repeat;
 }
 
 .lcr-img .c2{
     background-image: url(../images/fivewatt-halfstack.jpg);
     background-position: center;
+    background-size: 125%;
+    background-repeat: no-repeat;
 }
 
 .lcr-img .c3{
     background-image: url(../images/fivewatt.jpg);
     background-position: center;
+    background-size: 125%;
+    background-repeat: no-repeat;
 }
