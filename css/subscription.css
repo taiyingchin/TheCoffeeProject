@@ -30,6 +30,22 @@
     opacity: 0.70;
 }
 
+.solidLine {
+    border-bottom-color: rgb(244, 219, 85);
+    border-bottom-style: solid;
+    border-bottom-width: 12px;
+    line-height: 18px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.subButt {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    top: 50px;
+}
+
 .fixIt {
     max-width: 400px;
     padding: 0;
@@ -97,7 +113,7 @@
 }
 
 .blueText:hover, .blueImg:hover {
-     background-color: #9CC6C7;
+    background-color: #9CC6C7;
 }
 
 .yellowText, .yellowImg, .bagAmt {
@@ -164,7 +180,7 @@
 
 .summary {
     background-color:#9dced5;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); */
     padding: 25px;
 }
 
