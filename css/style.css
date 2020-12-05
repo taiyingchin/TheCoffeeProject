@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+.container {
+    max-width: 1900px;
+}
+
 body{
     font-size: 16px;
     color: #260101;
