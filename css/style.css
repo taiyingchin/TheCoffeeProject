@@ -28,7 +28,7 @@ html{
 }
 
 a {
-    color: #5AA1A2;
+    color: #9DCED5;
     text-decoration: underline #260101;
 }
 
@@ -148,7 +148,7 @@ h6 {
     margin: 0 120px;
     grid-column: main-start / c2;
     grid-row: c1 / c2;
-    background-color: #5AA1A2;
+    background-color: #9DCED5;
     color: white;
     height: 250px;
     width: 625px;
@@ -270,7 +270,7 @@ h6 {
     /* border: 1px solid brown; */
     text-align: center;
     /* padding-top: 10px; */
-    color: #5AA1A2;
+    color: #9DCED5;
 }
 
 .logo h3{
@@ -344,7 +344,7 @@ h4.hL{
 }
 
 h4.hL:before{
-    border-top: 12px solid #5AA1A2;
+    border-top: 12px solid #9DCED5;
     content: "";
     margin: 0 auto;
     position: absolute;
@@ -366,7 +366,7 @@ h4.hL:before {
     height: 12px;
     bottom: 0;
     left: 0;
-    background-color: #5AA1A2;
+    background-color: #9DCED5;
     z-index: -10;
     top: 41px;
     border-radius: 6px;
